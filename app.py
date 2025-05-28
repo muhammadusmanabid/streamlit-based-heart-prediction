@@ -10,7 +10,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 
 # ------------------- DATA LOADING & MODEL TRAINING -------------------
-df = pd.read_csv("C:/Users/musma/OneDrive/Desktop/HeartApp/Medicaldataset.csv")
+df = pd.read_csv("Medicaldataset.csv")
 
 # Visualize histograms
 def show_histograms():
